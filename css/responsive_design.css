@@ -1,0 +1,296 @@
+/* when the screen width is less than 1122px */
+@media screen and (max-width: 1122px) {
+    .header-section .top-header-section .mid{
+        display: none;
+    }
+    
+    .header-section .top-header-section .vertical-line{
+        display: none;
+    }
+}
+
+/*  when the screen width is less than 1000px */
+@media screen and (max-width:1000px){
+    main .image-popup-window .preview-image{
+        height: 60% !important;
+    }
+}
+
+/* when the screen width is less than 984px */
+/* Gallery columns: 2 */
+@media screen and (max-width:984px){
+    main .gallery{
+        columns: 2;
+    }
+
+    main .image-loading-skeleton{
+        columns: 2;
+    }
+
+    .vertical-line{
+        min-width: 1px;
+    }
+}
+
+/* when the screen width is less than 760px */
+@media screen and (max-width:760px){
+    main .image-popup-window .preview-image{
+        height: 48% !important;
+    }
+}
+
+/* when the screen width is less than 759px */
+@media screen and (max-width: 759px){
+    main .container .editorial-title-details{
+        height: 310px;
+    }
+
+    main .container .other-categories{
+        height: 310px;
+    }
+
+    main .container .other-categories .containing-div .title{
+        font-size: 28px;
+    }
+
+    main .container .other-categories .containing-div .content{
+        font-size: 18px;
+    }
+
+    main .container .editorial-title-details .containing-div .title{
+        font-size: 28px;
+    }
+
+    main .container .editorial-title-details .containing-div .content{
+        font-size: 18px;
+    }
+
+    main .container .editorial-title-details .containing-div .search-box{
+        display: none;
+    }
+
+    main .about-button{
+        height: 40px;
+        width: 40px;
+    }
+
+    main .about-button img{
+        width: 28px;
+    }
+
+    .header-section .top-header-section .branding{
+        font-size: 28px;
+    }
+}
+
+/* when the screen width is less than 748px */
+@media screen and (max-width:748px){
+    main .gallery{
+        columns: 1;
+    }
+
+    main .image-loading-skeleton{
+        columns: 1;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+
+    .header-section .categories .angle-small-left{
+        left: 100px;
+    }
+
+    .header-section .categories .angle-small-right{
+        right: 10px;
+    }
+
+    .header-section .categories .angle-small-left img{
+        width: 20px;
+    }
+
+    .header-section .categories .angle-small-right img{
+        width: 20px;
+    }
+}
+
+/* when the screen width is less than 615px */
+@media screen and (max-width:615px){
+    main .container .editorial-title-details .containing-div{
+        margin: auto;
+        margin-right: 0px;
+        margin-left: 20px;
+        width: fit-content;
+    }
+
+    main .container .editorial-title-details .containing-div .title{
+        font-size: 24px;
+    }
+
+    main .container .editorial-title-details .containing-div .content{
+        font-size: 15px;
+    }
+
+    main .container .other-categories .containing-div .title{
+        font-size: 24px;
+    }
+
+    main .container .other-categories .containing-div .content{
+        font-size: 15px;
+    }
+
+    main .container .other-categories .containing-div{
+        margin: auto 20px;
+        width: fit-content;
+    }
+}
+
+/* when the screen width is less than 611px */
+@media screen and (max-width: 611px){
+    main .about-section .container{
+        border-radius: 0px;
+    }
+}
+
+/* when the screen width is less than 594px */
+@media screen and (max-width:594px){
+    main .image-popup-window{
+        max-height: 100vh;
+        min-height: 450px;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    main .image-popup-window .preview-image{
+        max-height: 50%;
+        height: auto !important;
+    }
+}
+
+/* when the screen width is less than 560px */
+@media screen and (max-width:560px){
+    .header-section .top-header-section .right .login{
+        display: none;
+    }
+
+    .header-section .top-header-section .search-box::placeholder{
+        content: "Search";
+    }
+}
+
+/* when the screen width is less than 420px */
+@media screen and (max-width: 420px){
+    .header-section .top-header-section .branding{
+        font-size: 25px;
+    }
+
+    .header-section .top-header-section{
+        padding: 15px 18px;
+    }
+
+    .header-section .categories .angle-small-left{
+        display: none;
+    }
+
+    .header-section .categories .angle-small-right{
+        display: none;
+    }
+
+    .header-section .categories .right{
+        overflow: revert;
+    }
+
+    .header-section .categories{
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .header-section .categories::-webkit-scrollbar{
+        display: none;
+    }
+
+    main .image-popup-window{
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+    }
+
+    main .image-popup-window .image-nav-control{
+        top: 90%;
+    }
+
+    main .image-popup-window .image-nav-control svg{
+        fill: white;
+    }
+
+    main .image-popup-window .preview-image{
+        border: 0.5px solid #00000085;
+    }
+
+    main .image-popup-window .download-button{
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    main .image-popup-window .close-button svg{
+        fill: white;
+    }
+
+    main .about-section .container .content .title{
+        font-size: 38px;
+    }
+
+    main .about-section .container .content .info{
+        font-size: 15px;
+    }
+
+    main .image-popup-window .image-information .information-values{
+        width: 100%;
+        background-color: red;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    main .image-popup-window .image-information .information-values{
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    main .image-popup-window .image-information .other-informations .information-tab{
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    main .image-popup-window .slider-animation{
+        background: #fff;
+    }
+}
+
+/* when the screen width is less than 368px */
+@media screen and (max-width:368px){
+    main .image-popup-window .download-button{
+        top: 20px;
+        right: 20px;
+    }
+
+    main .image-popup-window .close-button{
+        top: 20px;
+        left: 20px;
+    }
+
+    .header-section .top-header-section .left{
+        gap: 8px;
+    }
+
+    .header-section .top-header-section .branding{
+        font-size: 22px;
+    }
+
+    .header-section .top-header-section .search-box{
+        transform: scale(0.95);
+    }
+
+    main .about-section .container .content .title{
+        line-height: 1.1;
+    }
+}

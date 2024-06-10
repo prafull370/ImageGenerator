@@ -1,0 +1,63 @@
+.toggle-menu-blur-background {
+  box-sizing: border-box;
+  z-index: -50;
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  background-color: #0000004d;
+  width: 100%;
+  height: 100vh;
+  transition: opacity .2s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.toggle-menu {
+  z-index: 100;
+  background-color: #fff;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 412px;
+  height: 100vh;
+  padding: 100px 50px;
+  transition: left .2s ease-in-out;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  overflow: hidden auto;
+}
+
+.toggle-menu .menu {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.toggle-menu .menu .menu-item {
+  color: #767676;
+  width: fit-content;
+  font-size: 23px;
+}
+
+.toggle-menu .menu .display-none {
+  display: block;
+}
+
+.toggle-menu .menu .menu-item:hover {
+  color: #111;
+}
+
+.toggle-menu .social-media {
+  gap: 12px;
+  display: flex;
+}
+
+.toggle-menu .close-button {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+/*# sourceMappingURL=index.f13cb092.css.map */

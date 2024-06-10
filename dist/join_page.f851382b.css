@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.main-container .left-container {
+  color: #fff;
+  background-image: url("join page.0995025c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  gap: 200px;
+  width: auto;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+}
+
+.main-container .left-container .branding {
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.main-container .left-container .text {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.main-container .left-container .text .title {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.main-container .left-container .text .description {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.main-container .right-container {
+  width: 80%;
+  height: 100%;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+.main-container .right-container .main-form-container {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+}
+
+.main-container .right-container .join-snapify {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.main-container .right-container .join-snapify .join-text {
+  color: #111;
+  font-family: Lato, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.main-container .right-container .join-snapify .join-text span {
+  color: #111;
+  font-family: Lobster Two, cursive;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.main-container .right-container .join-snapify .have-an-account {
+  color: #111;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.main-container .right-container .join-snapify .have-an-account a {
+  color: #767676;
+  text-decoration: underline;
+}
+
+.main-container .right-container .login-options {
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  margin-bottom: 28px;
+  display: flex;
+}
+
+.main-container .right-container .or-option {
+  color: #111;
+  font-size: 13px;
+}
+
+.main-container .right-container .login-options a {
+  color: #fff;
+  background: #0d6ce3;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 24px;
+  padding: 20px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.main-container .right-container .login-options a .icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.main-container .right-container .join-form {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.main-container .right-container .join-form .flex-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.main-container .right-container .join-form .flex-container .flex-element {
+  flex-direction: column;
+  width: 47%;
+  display: flex;
+}
+
+.main-container .right-container .join-form label {
+  color: #111;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.main-container .right-container .join-form input {
+  color: #111;
+  background: none;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 25px;
+  padding: 0 10px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+}
+
+.main-container .right-container .join-form label .condition {
+  color: #767676;
+}
+
+.main-container .right-container .join-form .submit-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #111;
+  border: 1px solid #0000;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  padding: 20px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.main-container .right-container .terms-and-conditions {
+  color: #767676;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.main-container .right-container .terms-and-conditions a {
+  color: #767676;
+  text-decoration: underline;
+}
+
+.error-text {
+  color: #fff;
+  background: #e25c3d;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  transition: top .7s;
+  display: flex;
+  position: fixed;
+  top: -100%;
+}
+
+.error-text .close-button {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+.error-text .close-button svg {
+  fill: #fff;
+  opacity: .7;
+  transition: color .1s;
+}
+
+.error-text .close-button:hover svg {
+  fill: #fff;
+  opacity: 1;
+}
+
+@media screen and (width <= 904px) {
+  .main-container .right-container {
+    overflow-y: revert;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  body {
+    overflow-y: auto;
+  }
+
+  .main-container .left-container {
+    justify-content: space-between;
+    gap: 50px;
+    height: fit-content;
+    padding: 20px;
+  }
+
+  .main-container .left-container .text {
+    gap: 8px;
+  }
+
+  .main-container .left-container .branding {
+    font-size: 30px;
+  }
+
+  .main-container .left-container .text .title {
+    font-size: 24px;
+  }
+
+  .main-container .left-container .text .description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (width <= 433px) {
+  .main-container .right-container {
+    padding: 30px;
+  }
+}
+/*# sourceMappingURL=join_page.f851382b.css.map */
