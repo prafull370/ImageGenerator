@@ -1,0 +1,15 @@
+{
+  "name": "unsplash-clone",
+  "version": "1.0.0",
+  "description": "Welcome to the Unsplash Clone! This web application is designed to replicate the popular Unsplash platform, allowing users to discover and explore a vast collection of high-quality, royalty-free images. Powered by HTML, CSS, and JavaScript, the Unsplash Clone provides a seamless and intuitive experience for image browsing.",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --dist-dir public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
