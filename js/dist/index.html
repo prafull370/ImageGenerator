@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Clone</title>
+    <link rel="stylesheet" href="/index.748ad148.css">
+    <link rel="stylesheet" href="/index.9f5449a1.css">
+    <link rel="stylesheet" href="/index.685b52ba.css">
+    <link rel="stylesheet" href="/index.f13cb092.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="toggle-menu-blur-background"></section>
+    <div class="toggle-menu">
+        <div class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="26" viewbox="0 96 960 960" width="26"><path d="M251.333 878 178 804.667 406.667 576 178 347.333 251.333 274 480 502.667 708.667 274 782 347.333 553.333 576 782 804.667 708.667 878 480 649.333 251.333 878Z"></path></svg>
+        </div>
+
+        <div class="menu">
+            <div class="menu-item toggle-menu-item">
+                <a href="#">Home</a>
+            </div>
+            <div class="menu-item toggle-menu-item">
+                <a href="/login_page.html">Log in</a>
+            </div>
+            <div class="menu-item toggle-menu-item about-menu-item">
+                <a href="#">About</a>
+            </div>
+            <div class="menu-item toggle-menu-item">
+                <a href="#">Collections</a>
+            </div>
+            <div class="menu-item display-none toggle-menu-item">
+                <a href="https://unsplash.com/explore">Explore</a>
+            </div>
+            <div class="menu-item display-none toggle-menu-item">
+                <a href="https://unsplash.com/advertise">Advertise</a>
+            </div>
+            <div class="menu-item display-none toggle-menu-item">
+                <a href="https://unsplash.com/plus">Snapify+</a>
+            </div>
+            <div class="menu-item toggle-menu-item">
+                <a href="/contact_us.html">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <div class="facebook social-media-icon toggle-menu-item">
+                <a href="https://www.facebook.com/unsplash/?utm_source=unsplash&utm_medium=referral" target="_blank"><img src="/facebook-circular-logo.ee93c26b.png" alt=""></a>
+            </div>
+            <div class="twitter social-media-icon toggle-menu-item">
+                <a href="https://twitter.com/unsplash?utm_source=unsplash&utm_medium=referral" target="_blank"><img src="/twitter.0bdd0e10.png" alt=""></a>
+            </div>
+            <div class="instagram social-media-icon toggle-menu-item">
+                <a href="https://www.instagram.com/unsplash/?utm_source=unsplash&utm_medium=referral" target="_blank"><img src="/instagram.9194bf37.png" alt=""></a>
+            </div>
+            <div class="linkedin social-media-icon toggle-menu-item">
+                <a href="https://www.linkedin.com/company/unsplash/" target="_blank"><img src="/linkedin.1652fa3c.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- <section class="toggle-menu">
+    </section> -->
+
+    <header class="header-section">
+        <div class="top-header-section">
+            <div class="left">
+                <div class="branding">
+                    Snapify
+                </div>
+        
+                <div class="search-box">
+                    <img src="/search.fa520981.png" alt="search icon">
+                    <input type="text" class="search-input" placeholder="Search high-resolution images">
+                </div>
+            </div>
+    
+            <div class="mid">
+                <div class="explore mid-option header-hover-transition">
+                    <a href="https://unsplash.com/explore">Explore</a>
+                </div>
+    
+                <div class="advertise mid-option header-hover-transition">
+                    <a href="https://unsplash.com/advertise">Advertise</a>
+                </div>
+    
+                <div class="unsplash-plus mid-option">
+                    <a href="https://unsplash.com/plus">Snapify&#43;</a>
+                </div>
+            </div>
+    
+            <div class="vertical-line"></div>
+    
+            <div class="right">
+                <div class="login header-hover-transition">
+                    <a href="/login_page.html">Log in</a>
+                </div>
+    
+                <div class="menu-icon">
+                    <img src="/menu.b8c8ff73.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="left category header-hover-transition js-on-click-effect">
+                Editorial
+            </div>
+
+            <div class="vertical-line"></div>
+            
+            <div class="right">
+                <div class="angle-small-left">
+                    <img src="/angle-small-left.da18fd9d.png" alt="">
+                </div>
+
+                <div class="category header-hover-transition js-on-click-effect" id="Wallpapers">
+                    Wallpapers
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    3D Renders
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Nature
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Travel
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Architecture & Interiors
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Street Photography
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Textures & Patterns
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Film
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Experimental
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Animals
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Fashion & Beauty
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Business & Work
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Food & Drink
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    People
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Spirituality
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Athletics
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Health & Wellness
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Current Events
+                </div>
+                <div class="category header-hover-transition js-on-click-effect">
+                    Arts & Culture
+                </div>
+
+                <div class="angle-small-right">
+                    <img src="/angle-small-right.b49d981b.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <!-- only for the editorial category -->
+            <div class="editorial-title-details display-none">
+                <div class="blur-background"></div>
+                <div class="containing-div">
+                    <div class="details">
+                        <div class="title">
+                            <span>Snapify</span>
+                        </div>
+                        <div class="content">
+                            <p>The internet’s source of freely-usable images.</p>
+                            <p>Powered by creators everywhere.</p>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <img src="/search.fa520981.png" alt="search icon">
+                        <input type="text" class="search-input" placeholder="Search high-resolution images">
+                    </div>
+                </div>
+            </div>
+
+            <!-- for other categories -->
+            <div class="other-categories display-none">
+                <div class="blur-background"></div>
+                <div class="containing-div">
+                    <div class="details">
+                        <div class="title">
+                            Wallpapers
+                        </div>
+                        <div class="content">
+                            <p>Transform your desktop or mobile screen with our stunning collection of high-quality wallpapers, handpicked to inspire and delight.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- While Searching Images -->
+            <div class="displaying-search-term">
+                <div class="search-term">
+
+                </div>
+            </div>
+        </section>
+
+        <div class="image-loading-skeleton">
+            <!-- Image loading skeleton which will appear on the screen when the images will not be fully loaded -->
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+        </div>
+
+        <section class="gallery">
+            <!-- Images will be dynamically added here -->
+        </section>
+
+        <div class="faded-background"></div>
+        <section class="image-popup-window">
+            <!-- Image Popup Window which will appear when you will click on an image -->
+            <div class="close-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewbox="0 96 960 960" width="20"><path d="M251.333 878 178 804.667 406.667 576 178 347.333 251.333 274 480 502.667 708.667 274 782 347.333 553.333 576 782 804.667 708.667 878 480 649.333 251.333 878Z"></path></svg>
+            </div>
+
+            <a href="" class="download-button" target="_blank">Download</a>
+
+            <img src="/about.66cfb048.png" alt="preview image" class="preview-image">
+
+            <div class="image-nav-control control-previous">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewbox="0 96 960 960" width="20"><path d="M426.667 1002.67 0 576l426.667-426.667 87.666 88.333L175.999 576l338.334 338.334-87.666 88.336Z"></path></svg>
+            </div>
+            <div class="image-nav-control control-next">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewbox="0 96 960 960" width="20"><path d="M309.666 1001.33 222 913l338.334-338.333L222 236.333 309.666 148l426.667 426.667-426.667 426.663Z"></path></svg>
+            </div>
+
+            <div class="image-information">
+                <div class="information-values">
+                    <div class="views information-tab">
+                        <div class="title">Views</div>
+                        <div class="value">200000</div>
+                    </div>
+    
+                    <div class="downloads information-tab">
+                        <div class="title">Downloads</div>
+                        <div class="value">2000</div>
+                    </div>
+    
+                    <div class="likes information-tab">
+                        <div class="title">Likes</div>
+                        <div class="value">90</div>
+                    </div>
+                </div>
+
+                <div class="other-informations">
+                    <div class="location information-tab">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewbox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path>
+                              </svg>
+                        </div>
+
+                        <div class="text">
+                            India
+                        </div>
+                    </div>
+
+                    <div class="camera information-tab">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewbox="0 0 16 16">
+                                <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"></path>
+                                <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"></path>
+                              </svg>
+                        </div>
+
+                        <div class="text">
+                            Canon
+                        </div>
+                    </div>
+
+                    <div class="description information-tab">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-text" viewbox="0 0 16 16">
+                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
+                                <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"></path>
+                              </svg>
+                        </div>
+
+                        <div class="text">
+                            a man standing with a coffee in his hands       
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-animation"></div>
+        </section>
+
+
+        <section class="about-button">
+            <img src="/information-button.42c283a0.png" alt="about">
+        </section>
+        
+        <section class="about-section">
+            <div class="container">
+                <div class="close-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" viewbox="0 96 960 960" width="20"><path d="M251.333 878 178 804.667 406.667 576 178 347.333 251.333 274 480 502.667 708.667 274 782 347.333 553.333 576 782 804.667 708.667 878 480 649.333 251.333 878Z"></path></svg>
+                </div>
+                <div class="content">
+                    <div class="title">
+                        About Snapify
+                    </div>
+                    <div class="info">
+                        <p>
+                            Welcome to Snapify! Our website is a personal project created for the purpose of practicing web development skills. We have used the Unsplash API to provide a vast collection of high-quality images for our users to browse and download. As a web developer, I am always looking for new and creative ways to enhance my skills and create beautiful websites. Our aim is to create a seamless and enjoyable user experience, and we welcome any feedback or suggestions to help improve our site. 
+                        </p>
+                        <p>
+                            Our goal is to make your experience on our website seamless and enjoyable. As Steve Jobs said, 'Design is not just what it looks like and feels like. Design is how it works.' We believe in this philosophy and strive to create a website that not only looks beautiful but also functions flawlessly. Thank you for visiting and I hope you enjoy browsing the collection of images on this website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- <footer>
+        <div class="copyright">
+            &#169; Manas Patil. All Rights Reserved.
+        </div>
+    </footer> -->
+    
+    <script src="/index.1c974c2f.js"></script>
+    <script src="/index.2b58b14a.js"></script>
+    <script src="/index.573a15d9.js"></script>
+    <script src="/index.e0b8e570.js"></script>
+<script src="/Unsplash-Clone.3464ddca.js"></script></body>
+</html>
